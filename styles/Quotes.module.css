@@ -1,0 +1,27 @@
+.quotesContainer{
+    padding: 20px;
+    background-color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: springgreen;
+    max-width: 200px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+.quotesContainerDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.quote{
+    height: auto;
+    margin-top: 10px;
+}
+
+.author{
+    color: #333;
+    background-color: springgreen;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 2px 0;
+}

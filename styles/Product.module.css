@@ -1,0 +1,40 @@
+.productConatiner{
+    display: flex;
+    flex-wrap: wrap;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.productCart{
+    cursor: pointer;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: #333;
+}
+
+.productCart:hover{
+    background-color: #191818;
+}
+
+.productCartImage{
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.filterBy{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: lightgray;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.selectedValue{
+    text-transform: capitalize;
+    color:#333;
+    font-size: larger;
+    font-weight: bold;
+    font-style: italic;
+}

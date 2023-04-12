@@ -1,0 +1,19 @@
+.userSide{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: lightgray;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+}
+
+.eventContainer{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.eventContent{
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+}

@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+}
+
+.active, .non-active{
+    background-color: lightgray;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.active{
+    background-color: lightblue !important;
+}
+
+.link:hover{
+    background-color: whitesmoke;
+}
+
+footer{
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-weight: 600;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+}
+
+section{
+    padding: 50px;
+}
+
+::placeholder{
+    color: #333;
+}
+
+.pageNotFound{
+    padding: 50px;
+    text-align: center;
+}
+
+.loader-container{
+    padding: 200px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader {
+    border: 10px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 10px solid darkslateblue;
+    width: 40px;
+    height: 40px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  
+.goBackButtonContainer{
+    display: flex;
+    justify-content: right;
+}
+
+.goBackButton{
+    padding: 5px;
+    border-radius: 45px;
+    font-size: 20px;
+    border: 1px solid #333;
+    background-color: lightcyan;
+}
+
+.goBackButton:hover{
+    background-color: lightseagreen;
+    transition: 0.5s;
+    color: white;
+}
+
+select{
+    padding: 5px;
+    margin-left: 5px;
+    border: none;
+    text-transform: capitalize;
+}
+
+.MuiTextField-root{
+    min-width: 250px !important;
+    margin: 10px !important;
+}
+
+small{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: red;
+    margin-left: 10px;
+}
+
+.twoField{
+    display: flex;
+    padding: 5px;
+}
+
+.inputField{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.formActions{
+    padding: 10px;
+    display: flex;
+    justify-content: right;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus, 
+input:-webkit-autofill:active{
+    -webkit-box-shadow: 0 0 0 30px white inset !important;
+}
+
+header{
+    padding: 20px;
+    background-color: #333;
+    display: flex;
+    color: deepskyblue;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-between;
+    font-size: x-large;
+}
+
+.shoppify{
+    color: blueviolet;
+}
